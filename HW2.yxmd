@@ -1,0 +1,388 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Udacity\TimeSeries\HW\storedemographicdata.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>storedemographicdata.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="Age0to9" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="Age10to17" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="Age18to24" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="Age25to29" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="Age30to39" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="Age40to49" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="Age50to64" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="Age65Plus" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="EdLTHS" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="EdHSGrad" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="EdSomeCol" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="EdAssociate" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="EdBachelor" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="EdMaster" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="EdProfSchl" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="EdDoctorate" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="HHSz1Per" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="HHSz2Per" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="HHSz3Per" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="HHSz4Per" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="HHSz5PlusPer" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="HHIncU25K" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="HHInc25Kto50K" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="HHInc50Kto75K" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="HHInc75Kto100K" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="HHInc100Kto150K" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="HHInc150Kto250K" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="HHInc250KPlus" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="PopAsian" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="PopBlack" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="PopHispanic" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="PopMulti" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="PopNativeAmer" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="PopOther" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="PopPacIsl" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="PopWhite" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="HVal0to100K" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="HVal100Kto200K" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="HVal200Kto300K" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="HVal300Kto400K" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="HVal400Kto500K" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="HVal500Kto750K" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="HVal750KPlus" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+            <Field name="PopDens" size="254" source="File: C:\Udacity\TimeSeries\HW\storedemographicdata.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings>
+        <Position x="582" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="estimation pct">80</Value>
+          <Value name="validation pct">20</Value>
+          <Value name="rand seed">3</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Create_Samples.yxmc" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="486" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Store" selected="True" />
+            <SelectField field="Age0to9" selected="True" type="Double" size="8" />
+            <SelectField field="Age10to17" selected="True" type="Double" size="8" />
+            <SelectField field="Age18to24" selected="True" type="Double" size="8" />
+            <SelectField field="Age25to29" selected="True" type="Double" size="8" />
+            <SelectField field="Age30to39" selected="True" type="Double" size="8" />
+            <SelectField field="Age40to49" selected="True" type="Double" size="8" />
+            <SelectField field="Age50to64" selected="True" type="Double" size="8" />
+            <SelectField field="Age65Plus" selected="True" type="Double" size="8" />
+            <SelectField field="EdLTHS" selected="True" type="Double" size="8" />
+            <SelectField field="EdHSGrad" selected="True" type="Double" size="8" />
+            <SelectField field="EdSomeCol" selected="True" type="Double" size="8" />
+            <SelectField field="EdAssociate" selected="True" type="Double" size="8" />
+            <SelectField field="EdBachelor" selected="True" type="Double" size="8" />
+            <SelectField field="EdMaster" selected="True" type="Double" size="8" />
+            <SelectField field="EdProfSchl" selected="True" type="Double" size="8" />
+            <SelectField field="EdDoctorate" selected="True" type="Double" size="8" />
+            <SelectField field="HHSz1Per" selected="True" type="Double" size="8" />
+            <SelectField field="HHSz2Per" selected="True" type="Double" size="8" />
+            <SelectField field="HHSz3Per" selected="True" type="Double" size="8" />
+            <SelectField field="HHSz4Per" selected="True" type="Double" size="8" />
+            <SelectField field="HHSz5PlusPer" selected="True" type="Double" size="8" />
+            <SelectField field="HHIncU25K" selected="True" type="Double" size="8" />
+            <SelectField field="HHInc25Kto50K" selected="True" type="Double" size="8" />
+            <SelectField field="HHInc50Kto75K" selected="True" type="Double" size="8" />
+            <SelectField field="HHInc75Kto100K" selected="True" type="Double" size="8" />
+            <SelectField field="HHInc100Kto150K" selected="True" type="Double" size="8" />
+            <SelectField field="HHInc150Kto250K" selected="True" type="Double" size="8" />
+            <SelectField field="HHInc250KPlus" selected="True" type="Double" size="8" />
+            <SelectField field="PopAsian" selected="True" type="Double" size="8" />
+            <SelectField field="PopBlack" selected="True" type="Double" size="8" />
+            <SelectField field="PopHispanic" selected="True" type="Double" size="8" />
+            <SelectField field="PopMulti" selected="True" type="Double" size="8" />
+            <SelectField field="PopNativeAmer" selected="True" type="Double" size="8" />
+            <SelectField field="PopOther" selected="True" type="Double" size="8" />
+            <SelectField field="PopPacIsl" selected="True" type="Double" size="8" />
+            <SelectField field="PopWhite" selected="True" type="Double" size="8" />
+            <SelectField field="HVal0to100K" selected="True" type="Double" size="8" />
+            <SelectField field="HVal100Kto200K" selected="True" type="Double" size="8" />
+            <SelectField field="HVal200Kto300K" selected="True" type="Double" size="8" />
+            <SelectField field="HVal300Kto400K" selected="True" type="Double" size="8" />
+            <SelectField field="HVal400Kto500K" selected="True" type="Double" size="8" />
+            <SelectField field="HVal500Kto750K" selected="True" type="Double" size="8" />
+            <SelectField field="HVal750KPlus" selected="True" type="Double" size="8" />
+            <SelectField field="PopDens" selected="True" type="Double" size="8" />
+            <SelectField field="Cluster" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings>
+        <Position x="678" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Model Name">Decision_Tree_12</Value>
+          <Value name="Y Var">Cluster</Value>
+          <Value name="X Vars">Age0to9 + Age10to17 + Age18to24 + Age25to29 + Age30to39 + Age40to49 + Age50to64 + Age65Plus + EdLTHS + EdHSGrad + EdSomeCol + EdAssociate + EdBachelor + EdMaster + EdProfSchl + EdDoctorate + HHSz1Per + HHSz2Per + HHSz3Per + HHSz4Per + HHSz5PlusPer + HHIncU25K + HHInc25Kto50K + HHInc50Kto75K + HHInc75Kto100K + HHInc100Kto150K + HHInc150Kto250K + HHInc250KPlus + PopAsian + PopBlack + PopHispanic + PopMulti + PopNativeAmer + PopOther + PopPacIsl + PopWhite + HVal0to100K + HVal100Kto200K + HVal200Kto300K + HVal300Kto400K + HVal400Kto500K + HVal500Kto750K + HVal750KPlus + PopDens</Value>
+          <Value name="use.weights">False</Value>
+          <Value name="select.weights">Age0to9</Value>
+          <Value name="cp">auto</Value>
+          <Value name="select.type">False</Value>
+          <Value name="classification">False</Value>
+          <Value name="use.gini">True</Value>
+          <Value name="use.information">False</Value>
+          <Value name="regression">False</Value>
+          <Value name="min.split">20</Value>
+          <Value name="min.bucket">7</Value>
+          <Value name="usesurrogate.0">True</Value>
+          <Value name="usesurrogate.1">False</Value>
+          <Value name="usesurrogate.2">False</Value>
+          <Value name="total.correct">True</Value>
+          <Value name="percent.correct">False</Value>
+          <Value name="xval.folds">10</Value>
+          <Value name="max.depth">20</Value>
+          <Value name="max.bins" />
+          <Value name="tree.plot">False</Value>
+          <Value name="Counts">True</Value>
+          <Value name="Proportions">False</Value>
+          <Value name="Branch Dist">False</Value>
+          <Value name="tree.inches">True</Value>
+          <Value name="tree.in.w">5.50</Value>
+          <Value name="tree.in.h">5.50</Value>
+          <Value name="tree.centimeters">False</Value>
+          <Value name="tree.cm.w">13.00</Value>
+          <Value name="tree.cm.h">14.95</Value>
+          <Value name="tree.graph.resolution">1x</Value>
+          <Value name="tree.pointsize">8</Value>
+          <Value name="prune.plot">False</Value>
+          <Value name="prune.inches">True</Value>
+          <Value name="prune.in.w">5.50</Value>
+          <Value name="prune.in.h">5.50</Value>
+          <Value name="prune.centimeters">False</Value>
+          <Value name="prune.cm.w">13.00</Value>
+          <Value name="prune.cm.h">14.95</Value>
+          <Value name="prune.graph.resolution">1x</Value>
+          <Value name="prune.pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name>Decision Tree (12)</Name>
+          <AnnotationText>Decision_Tree_12</AnnotationText>
+          <DefaultAnnotationText>Decision_Tree_12</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Decision_Tree.yxmc" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Udacity\TimeSeries\HW\store-cluster-id.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>store-cluster-id.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="254" source="File: C:\Udacity\TimeSeries\HW\store-cluster-id.csv" type="V_String" />
+            <Field name="Dry.Grocery.." size="254" source="File: C:\Udacity\TimeSeries\HW\store-cluster-id.csv" type="V_String" />
+            <Field name="Dairy.." size="254" source="File: C:\Udacity\TimeSeries\HW\store-cluster-id.csv" type="V_String" />
+            <Field name="Frozen.Food" size="254" source="File: C:\Udacity\TimeSeries\HW\store-cluster-id.csv" type="V_String" />
+            <Field name="Meat.." size="254" source="File: C:\Udacity\TimeSeries\HW\store-cluster-id.csv" type="V_String" />
+            <Field name="Produce.." size="254" source="File: C:\Udacity\TimeSeries\HW\store-cluster-id.csv" type="V_String" />
+            <Field name="Floral.." size="254" source="File: C:\Udacity\TimeSeries\HW\store-cluster-id.csv" type="V_String" />
+            <Field name="Deli.." size="254" source="File: C:\Udacity\TimeSeries\HW\store-cluster-id.csv" type="V_String" />
+            <Field name="Bakery.." size="254" source="File: C:\Udacity\TimeSeries\HW\store-cluster-id.csv" type="V_String" />
+            <Field name="General.Merchandise.." size="254" source="File: C:\Udacity\TimeSeries\HW\store-cluster-id.csv" type="V_String" />
+            <Field name="Cluster" size="254" source="File: C:\Udacity\TimeSeries\HW\store-cluster-id.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="246" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Store" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Store" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Store" selected="True" rename="Right_Store" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="342" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\shi00129\AppData\Local\Temp\1\Engine_20500_6dcb1bf515b04e9f83d5d7e139fc26ea_\Engine_16328_671153d8ebde488ab960af1ed0783c95_.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="14" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="14" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Estimation" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Join" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Join" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>HW2</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
